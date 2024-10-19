@@ -1,8 +1,7 @@
 "use client";
-
-import { motion } from "framer-motion";
 import React from "react";
 import { AuroraBackground } from "../ui/aurora-background";
+import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -29,17 +28,18 @@ export default function Hero() {
       className="rounded "
       >
         <p className="text-center text-teal-900 font-bold mt-5 text-2xl sm:mt-48 sm:text-4xl">Save Up To 9x <br/> When You Send Currencies</p>
-        <p className="text-center ">Sending money shouldn't cost the earth,
+        <p className="text-center ">Sending money shouldnt cost the earth,
           <br/> So we built wise to save you money when transfer and exchange internationally.
           <br/>We charge as little as possible: right now a tiny fee. eventually free.</p>
       </div>
       <div
       className="rounded "
       >
-        <img
+        <Image
+        alt="Money Pic"
         className="rounded-full mt-16 size-96 ml-3  sm:size-5/6"
         src="https://i.pinimg.com/564x/c7/d6/87/c7d687fe9daeda60a594089c8d70a2b4.jpg"
-        ></img>
+        />
       </div>
     </div>
     <br/>

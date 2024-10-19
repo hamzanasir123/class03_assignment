@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 function Section() {
@@ -14,12 +15,12 @@ function Section() {
     className='grid gap-4 sm:grid-cols-2 text-center mb-10 w-full bg-slate-100'
     >
         <div>
-          <img className='rounded sm:m-5 mt-10  ' src='https://i.pinimg.com/564x/2e/86/11/2e8611fe75864aab0bafc6f4a5269562.jpg'></img>
+          <Image className='rounded sm:m-5 mt-10' alt='Image' src='https://i.pinimg.com/564x/2e/86/11/2e8611fe75864aab0bafc6f4a5269562.jpg'/>
         </div>
           <div>
           <p
           className='text-4xl font-bold font-serif m-5'
-          >The Card That's
+          >The Card Thats
           <br/> Always Got The
           <br/> Right Currency.</p>
           <p>Save as you spend and withdraw over <br/> 50 currencies at the live rate <br/> automatically.</p>
@@ -40,7 +41,7 @@ function Section() {
         </div>
         <div className='grid sm:grid-cols-2 gap-4 text-center sm:text-left'>
         <div>
-          <img className='rounded' src='https://i.pinimg.com/564x/7a/0b/1a/7a0b1a5eb7b5275e84ec6e434b360742.jpg'></img>
+          <Image className='rounded' alt='Image' src='https://i.pinimg.com/564x/7a/0b/1a/7a0b1a5eb7b5275e84ec6e434b360742.jpg'/>
         </div>
         <div>
           <p
