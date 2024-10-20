@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import React from 'react';
 
@@ -15,7 +16,7 @@ function Section() {
     className='grid gap-4 sm:grid-cols-2 text-center mb-10 w-full bg-slate-100'
     >
         <div>
-          <Image className='rounded sm:m-5 mt-10' alt='Image' src='https://i.pinimg.com/564x/2e/86/11/2e8611fe75864aab0bafc6f4a5269562.jpg'/>
+          <Image height={600} width={500} className='rounded sm:m-5 mt-10' alt='Image' src='https://i.pinimg.com/564x/2e/86/11/2e8611fe75864aab0bafc6f4a5269562.jpg'/>
         </div>
           <div>
           <p
@@ -41,7 +42,7 @@ function Section() {
         </div>
         <div className='grid sm:grid-cols-2 gap-4 text-center sm:text-left'>
         <div>
-          <Image className='rounded' alt='Image' src='https://i.pinimg.com/564x/7a/0b/1a/7a0b1a5eb7b5275e84ec6e434b360742.jpg'/>
+          <Image height={600} width={500} className='rounded' alt='Image' src='https://i.pinimg.com/564x/7a/0b/1a/7a0b1a5eb7b5275e84ec6e434b360742.jpg'/>
         </div>
         <div>
           <p

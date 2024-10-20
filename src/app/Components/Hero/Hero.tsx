@@ -36,8 +36,10 @@ export default function Hero() {
       className="rounded "
       >
         <Image
+        width={300}
+        height={300}
         alt="Money Pic"
-        className="rounded-full mt-16 size-96 ml-3  sm:size-5/6"
+        className="rounded-full mt-16 size-96  sm:size-5/6"
         src="https://i.pinimg.com/564x/c7/d6/87/c7d687fe9daeda60a594089c8d70a2b4.jpg"
         />
       </div>
